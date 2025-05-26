@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.card-container {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #05386b;
+}
+
+.button {
+  width: 100%;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.alert-success {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.alert-danger {
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type="file"] {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+input[type="file"]::file-selector-button {
+  background: #0072ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #0051c7;
+}
