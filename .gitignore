@@ -2,3 +2,6 @@ blood_group_prediction/staticfiles/
 blood_group_prediction/myenv/
 __pycache__/
 *.pyc
+
+# Ignore virtual environment folder
+myenv/
